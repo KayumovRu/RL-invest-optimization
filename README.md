@@ -18,7 +18,7 @@ Investment assets: stocks, bonds, currencies, cryptocurrencies, gold
 1. Research on the methods of rebalancing the investment portfolio
 2. Study of the existing experience of using RL to optimize the financial portfolio
 3. Using reinforcement learning
-4. Performance comparison
+4. Performance comparison with econometric models
 5. Service development 
 
 ## Results & Examples
