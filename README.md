@@ -1,64 +1,64 @@
 
 # Portfolio Optimization using Reinforcement Learning
 
-(IN PROGRESS)
+HSE Project,
+Ruslan Kayumov
 
-HSE Project
+**Промежуточные отчеты** в папке Reviews
 
-Team: Ruslan Kayumov
+## О чем работа?
 
-- **Progress reports in the Reviews folder**
+Исследование и разработка сервиса для перебалансировки инвестиционного портфеля с использованием методов глубокого обучения с подкреплением (DRL).
 
-- **EDA - utils/download_and_EDA.ipynb**
-
-## What's it?
-
-Research and development of a service for rebalancing an investment portfolio using machine learning methods, including Reinforcement Learning.
-
-Investment assets: stocks, bonds, currencies, cryptocurrencies, gold
-
-## Stages
-
-(draft)
-
-CHAPTER 1. OVERVIEW OF EXISTING SOLUTIONS FOR REBALANCING THE INVESTMENT PORTFOLIO
-
-    1.1 Econometric methods
-        1.1.1 Markovitz Model
-        1.1.2 Black-Letterman Model
-    1.2 Numerical methods
-        1.2.1 Monte Carlo Simulation
-
-CHAPTER 2. ANALYSIS AND SPECIFICS OF INPUT DATA
-
-    2.1 Features and structure of input data
-    2.2 Classes of investment assets and their primary selection for Model
-    2.3 Data sources
-    2.4 Exploratory data analysis
-
-CHAPTER 3. PROJECT ARCHITECTURE
-
-    3.1 Resource calculation
-    ...
-
-CHAPTER 4. BASELINE MODEL
-
-    4.1 []
-    ...
-
-CHAPTER 5. RL MODEL
-
-    5.1 []
-    5.x. Performance comparison with econometric models
-    ...
-
-CHAPTER 6. SERVICE DEVELOPMENT
-
-    6.1.
-    6.x. Results
+Инвестиционные активы: акции, облигации, валюты, криптовалюты, золото
 
 
-## Results & Examples
+## Результаты
 
-(after the first results appear)
-Check
+* Отобрана модель DDPG
+* Реализованный сервис - [Portfolio_optimize](https://github.com/KayumovRu/Portfolio_optimize)
+
+## Важные файлы
+
+*
+
+## Содержание работы
+
+ГЛАВА 1. ТЕОРИЯ И ОБЗОР СУЩЕСТВУЮЩИХ РЕШЕНИЙ
+
+    1.1 Существующие исследования
+    1.2 Теория портфельного инвестирования
+    1.3 Особенности обучения, тестирования и применения инвестиционных стратегий
+    1.4 Обучение с подкреплением (RL) для оптимизации инвестиционного портфеля
+        1.4.1 Теория и терминология RL
+        1.4.2 Глубокое обучение с подкреплением (DRL), агенты A2C, PPO, DDPG
+
+ГЛАВА 2. АНАЛИЗ И СПЕЦИФИКА ВХОДНЫХ ДАННЫХ
+
+    2.1 Особенности и структура входных данных
+    2.2 Классы инвестиционных активов и их первичный отбор
+    2.3 Источники данных
+    2.4 Разведочный анализ данных
+
+ГЛАВА 3. BASELINE МОДЕЛЬ
+
+    3.1 Отбор базовых моделей и бенчмарков
+    3.2 Практическая реализация модели Марковица
+    3.3 Модуль периодической ребалансировки
+
+ГЛАВА 4. DRL-МОДЕЛЬ
+
+    4.1 Эксперимент MVP – условия и схема валидации
+    4.2 Проведение эксперимента
+    4.3 Результаты эксперимента
+    4.4 Выводы по MVP и план финального эксперимента
+    4.5 Финальный эксперимент
+
+ГЛАВА 5. РАЗРАБОТКА КЛИЕНТ-СЕРВЕРНОГО ПРИЛОЖЕНИЯ
+
+    5.1 Архитектура сервиса
+    5.2 Запросы API
+    5.3 Общая структура сервиса
+    5.4 Система авторизации и работа с данными
+    5.5 Функционал обучения модели
+    5.6 Применение модели на новых данных и сравнение с бенчмарками
