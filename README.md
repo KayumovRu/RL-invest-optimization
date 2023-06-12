@@ -25,7 +25,7 @@ Ruslan Kayumov
 	* Разведочный анализ - [download_and_EDA.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/download_and_EDA.ipynb)
 	* Ребалансировка по Марковицу со скользящим окном - [Markowitz_rebalance.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/Markowitz_rebalance.ipynb)
 	* Проведение эксперимента MVP - [FinRL_02_tests.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/FinRL_02_tests.ipynb)
-    * Результаты эксперимента MVP - [FinRL_03_mvp_results.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/Markowitz_rebalance.ipynb)
+    * Результаты эксперимента MVP - [FinRL_03_mvp_results.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/FinRL_03_mvp_results.ipynb) на базе [данных и обученных моделей](https://github.com/KayumovRu/RL-invest-optimization/tree/master/notebooks/test_results)
 
 
 ## Результаты
