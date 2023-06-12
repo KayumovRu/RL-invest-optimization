@@ -11,11 +11,6 @@ Ruslan Kayumov
 Инвестиционные активы: акции, облигации, валюты, криптовалюты, золото
 
 
-## Результаты
-
-* Исследованы DRL-алгоритмы, протестирована модели глбуокого обучения с подкреплением, отобрана модель DDPG
-* Реализованный сервис - [Portfolio_optimize](https://github.com/KayumovRu/Portfolio_optimize)
-
 ## Ход работы
 * Исследование существующего опыта
 * Отбор базовых моделей
@@ -32,3 +27,8 @@ Ruslan Kayumov
 	* Проведение эксперимента MVP - [FinRL_02_tests.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/FinRL_02_tests.ipynb)
     * Результаты эксперимента MVP - [FinRL_03_mvp_results.ipynb](https://github.com/KayumovRu/RL-invest-optimization/blob/master/notebooks/Markowitz_rebalance.ipynb)
 
+
+## Результаты
+
+* Исследованы DRL-алгоритмы, протестирована модели глбуокого обучения с подкреплением, отобрана модель DDPG
+* **Реализованный сервис** - [Portfolio_optimize](https://github.com/KayumovRu/Portfolio_optimize)
